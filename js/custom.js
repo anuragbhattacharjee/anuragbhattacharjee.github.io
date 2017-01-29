@@ -3,13 +3,15 @@ var sections = [
 		},
 		{	sentence: " a foodie",
 		},
-		{	sentence: " interested in computer science",
+		{	sentence: " in love with travelling",
 		},
-		{	sentence: " interested to be a full stack developer someday",
+		{	sentence: " interested to be an entrepreneur someday",
 		},
 		{	sentence: " in love with making web applications",
 		},
 		{	sentence: " a চাঁটগাঁইয়া",
+    },
+    { sentence : " in love with photography"
     },
     { sentence : " A Computer Science Enthusiast"
     }
@@ -78,4 +80,30 @@ $(document).ready(function(){
     writing(text);
   }, firstTimer);
 
+  var minimized_elements = $('.service-box .text-muted');
+  var minimize_character_count = 400;
+
+  minimized_elements.each(function(){
+      var t = $(this).text();
+      if(t.length < minimize_character_count ) return;
+
+      $(this).html(
+          t.slice(0,minimize_character_count )+'<span>... </span><a href="#" class="more">More</a>'+
+          '<span style="display:none;">'+ t.slice(minimize_character_count ,t.length)+' <a href="#" class="less">Less</a></span>'
+      );
+
+  });
+
+  $('a.more', minimized_elements).click(function(event){
+      event.preventDefault();
+      $(this).hide().prev().hide();
+      $(this).next().show();
+  });
+
+  $('a.less', minimized_elements).click(function(event){
+      event.preventDefault();
+      $(this).parent().hide().prev().show().prev().show();
+  });
+
+  $('.social-btn').prepend('<span></span><span></span><span></span><span></span>');
 });
