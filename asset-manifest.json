@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.8a507909.chunk.css",
-    "main.js": "/static/js/main.3e184532.chunk.js",
-    "main.js.map": "/static/js/main.3e184532.chunk.js.map",
+    "main.js": "/static/js/main.af5da0f3.chunk.js",
+    "main.js.map": "/static/js/main.af5da0f3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c63d3c07.js",
     "runtime-main.js.map": "/static/js/runtime-main.c63d3c07.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.6aaa5016.chunk.js": "/static/js/2.6aaa5016.chunk.js",
-    "static/js/2.6aaa5016.chunk.js.map": "/static/js/2.6aaa5016.chunk.js.map",
+    "static/js/2.b086749a.chunk.js": "/static/js/2.b086749a.chunk.js",
+    "static/js/2.b086749a.chunk.js.map": "/static/js/2.b086749a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.388922a1eca1155a8e7aa31e44958774.js": "/precache-manifest.388922a1eca1155a8e7aa31e44958774.js",
+    "precache-manifest.b1db1e3d232e31119257761452791e03.js": "/precache-manifest.b1db1e3d232e31119257761452791e03.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.8a507909.chunk.css.map": "/static/css/main.8a507909.chunk.css.map",
-    "static/js/2.6aaa5016.chunk.js.LICENSE.txt": "/static/js/2.6aaa5016.chunk.js.LICENSE.txt",
+    "static/js/2.b086749a.chunk.js.LICENSE.txt": "/static/js/2.b086749a.chunk.js.LICENSE.txt",
     "static/media/anurag.jpg": "/static/media/anurag.b8d5d403.jpg",
     "static/media/blog-alt-image.jpeg": "/static/media/blog-alt-image.f319169f.jpeg",
     "static/media/bulboff.13dd5f0e.svg": "/static/media/bulboff.13dd5f0e.svg",
@@ -23,6 +23,7 @@
     "static/media/debashish.jpeg": "/static/media/debashish.ebc3e169.jpeg",
     "static/media/flask.jpg": "/static/media/flask.f002fff5.jpg",
     "static/media/sid.jpeg": "/static/media/sid.3107fa2a.jpeg",
+    "static/media/smily-bot.png": "/static/media/smily-bot.c34d9f91.png",
     "static/media/translate.jpg": "/static/media/translate.54763fca.jpg",
     "static/media/webpod.png": "/static/media/webpod.a7769776.png",
     "static/media/wedding.png": "/static/media/wedding.e7e9d1f3.png"
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.c63d3c07.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.6aaa5016.chunk.js",
+    "static/js/2.b086749a.chunk.js",
     "static/css/main.8a507909.chunk.css",
-    "static/js/main.3e184532.chunk.js"
+    "static/js/main.af5da0f3.chunk.js"
   ]
 }
