@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anuragbhattacharjee.github.io/sitemap.xml
